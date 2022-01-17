@@ -1,0 +1,29 @@
+.background_Home {
+    animation: gradient 10s alternate ease infinite;
+    background: linear-gradient(-45deg, #E4E5E6, #00416A, #E4E5E6, #00416A, #E4E5E6) no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 300% 300%;
+}
+
+.profile_Picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 250px;    
+}
+
+@keyframes gradient {
+    from {
+        background-position: 0 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}

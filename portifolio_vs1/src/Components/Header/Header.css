@@ -2,12 +2,12 @@
   list-style: none;
   text-align: center;
   margin-right: 24px;
-  margin-top: 10px;
   position: fixed;
 }
 
 .navbar__menu--links {
   color: #222121;
+  font-size: 20px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;

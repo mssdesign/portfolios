@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="background">
       <Header />
-      <div className="Main-Page">
-        <Profile />
-      </div>
+      <Profile />
     </div>
   )
 }

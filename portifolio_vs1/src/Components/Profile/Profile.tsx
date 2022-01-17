@@ -1,11 +1,11 @@
 import React from "react"
+import './Profile.css'
 
 const Profile = () => {
     return (
-        <div>
+        <div className="background_Home">
             <div className="profile_Picture">
-                <p>picture</p>
-                <img src={require("../../Assets/profileMe.png")} alt="" />
+                <img className="avatar" src={require("../../Assets/profileMe.png")} alt="" />
             </div>
         </div>
     )
