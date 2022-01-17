@@ -2,7 +2,9 @@ import './App.css';
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <p>Pronto</p>
+    </div>
   );
 }
 
