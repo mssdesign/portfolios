@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
 .background_Home {
     animation: gradient 10s alternate ease infinite;
     background: linear-gradient(-45deg, #E4E5E6, #00416A, #E4E5E6, #00416A, #E4E5E6) no-repeat;
     width: 100vw;
     height: 100vh;
     background-size: 300% 300%;
+    position: relative;
 }
 
 .profile_Picture {
@@ -16,6 +19,20 @@
 .avatar {
     border-radius: 50%;
     height: 250px;    
+}
+
+.legend {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    position: absolute;
+    color: #fff;
+    width: 150px;
+    right: 125px;
+    top: 30%;
+}
+
+.legend-name {
+    font-size: 2em;
 }
 
 @keyframes gradient {
