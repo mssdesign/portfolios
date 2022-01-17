@@ -1,0 +1,24 @@
+.navbar__menu {
+  list-style: none;
+  text-align: center;
+  margin-right: 24px;
+  margin-top: 10px;
+  position: fixed;
+}
+
+.navbar__menu--links {
+  color: #222121;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.navbar__menu--links.active {
+    color: #fff;
+    background-color: #222121;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}

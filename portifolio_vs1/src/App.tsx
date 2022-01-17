@@ -1,11 +1,16 @@
-import './App.css';
+import './App.css'
+import Header from './Components/Header/Header'
+import Profile from './Components/Profile/Profile'
 
 function App() {
   return (
-    <div>
-      <p>Pronto</p>
+    <div className="background">
+      <Header />
+      <div className="Main-Page">
+        <Profile />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
