@@ -5,7 +5,7 @@ const Websites = () => {
     return (
         <div className="Websites_Page">
             <div className="Websites_Page_main">
-                <h2>Websites</h2>
+                <h2>Webpages</h2>
             </div>
         </div>
     )
