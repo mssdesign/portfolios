@@ -11,9 +11,10 @@ const Profile = () => {
           src={require('../../Assets/profileMe.png')}
           alt=""
         />
-        <p className="legend">
-          Olá, me chamo <strong className="legend-name">Matheus Soares</strong><hr/> desenvolvedor front-end
-        </p>
+        <div className="legend">
+          Olá, me chamo <strong className="legend-name">Matheus Soares</strong>
+          <hr /> desenvolvedor front-end
+        </div>
       </div>
       <div className="callToAction">
         <p>Ver projetos</p>
