@@ -1,30 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
 .background_Home {
-    animation: gradient 10s alternate ease infinite;
+    font-family: 'Roboto', sans-serif;
+    animation: gradient 20s alternate ease infinite;
     background: linear-gradient(-45deg, #E4E5E6, #00416A, #E4E5E6, #00416A, #E4E5E6) no-repeat;
     width: 100vw;
     height: 100vh;
     background-size: 300% 300%;
-    position: relative;
 }
 
 .profile_Picture {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 .avatar {
     border-radius: 50%;
     height: 250px;
     margin-right: 100px;
-    /* colocar shadow     */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .legend {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.4em;
     color: #fff;
     width: 150px;
@@ -36,6 +35,26 @@
     font-size: 2em;
 }
 
+.callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;    
+}
+
+.callToAction p {
+    font-size: 25px;
+    color: #fff;
+}
+
+.callToAction img {
+    animation: is-bouncing 1.5s ease infinite;
+    position: absolute;
+    bottom: -15px;
+    height: 50px;
+}
+
 @keyframes gradient {
     from {
         background-position: 0 50%;
@@ -43,5 +62,11 @@
 
     to {
         background-position: 100% 50%;
+    }
+}
+
+@keyframes is-bouncing {
+    to {
+        transform: translateY(10px);
     }
 }
