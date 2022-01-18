@@ -1,9 +1,10 @@
 .navbar__menu {
+  position: fixed;
+  top: 0;
   list-style: none;
   text-align: center;
   margin-right: 24px;
-  position: fixed;
-  z-index: 99;
+
 }
 
 .navbar__menu--links {
