@@ -12,7 +12,7 @@ const Profile = () => {
           alt=""
         />
         <p className="legend">
-          Olá, me chamo <strong className="legend-name">Matheus Soares</strong>
+          Olá, me chamo <strong className="legend-name">Matheus Soares</strong><hr/> desenvolvedor front-end
         </p>
       </div>
       <div className="callToAction">
