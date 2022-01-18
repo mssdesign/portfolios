@@ -4,9 +4,8 @@ import './Websites.css'
 const Websites = () => {
     return (
         <div className="Websites_Page">
-            <h2>Websites</h2>
-            <div className="Website_project">
-                <h3>Hotel Paraíso</h3>
+            <div className="Websites_Page_main">
+                <h2>Websites</h2>
             </div>
         </div>
     )

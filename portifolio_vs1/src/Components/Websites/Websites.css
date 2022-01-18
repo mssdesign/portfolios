@@ -4,6 +4,14 @@
     height: 100vh;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Websites_Page_main {
+    width: 1500px;
+    height: 100vh;
     position: relative;
 }
 
