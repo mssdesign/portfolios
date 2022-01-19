@@ -66,7 +66,7 @@
 }
 
 .Website_card:hover {
-    animation: shake 0.50s ease infinite;
+    animation: shake 1s ease infinite;
 }
 
 @keyframes shake {
