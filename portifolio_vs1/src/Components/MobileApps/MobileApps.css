@@ -7,6 +7,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../../Assets/mobilesCurves.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100vw;
 }
 
 .MobileApps_Page_main {

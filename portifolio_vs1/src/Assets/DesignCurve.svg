@@ -1,3 +1,17 @@
-<svg width="3590" height="718" viewBox="0 0 3590 718" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M-842.968 295.577C783.852 -485.471 1133.48 1173.29 3754.92 295.577C6376.35 -582.14 3754.92 774.53 3754.92 774.53H-842.968C-842.968 774.53 -2469.79 1076.62 -842.968 295.577Z" fill="#222121"/>
+<svg width="3590" height="1437" viewBox="0 0 3590 1437" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_13_2)">
+<rect width="3590" height="1437" transform="translate(0 0.000244141)" fill="white"/>
+<circle cx="1173.15" cy="918.444" r="23.5" transform="rotate(60 1173.15 918.444)" fill="white"/>
+<circle cx="1094.35" cy="963.944" r="23.5" transform="rotate(60 1094.35 963.944)" fill="white"/>
+<circle cx="1161.09" cy="1023.56" r="23.5" transform="rotate(60 1161.09 1023.56)" fill="white"/>
+<circle cx="1085.91" cy="965.102" r="23.5" transform="rotate(60 1085.91 965.102)" fill="white"/>
+<circle cx="1007.1" cy="1010.6" r="23.5" transform="rotate(60 1007.1 1010.6)" fill="white"/>
+<circle cx="1073.85" cy="1070.21" r="23.5" transform="rotate(60 1073.85 1070.21)" fill="white"/>
+<path d="M-842.968 1122.25C783.852 497.972 1133.48 1823.79 3754.92 1122.25C6376.35 420.706 3754.92 1505.07 3754.92 1505.07L-842.968 1505.07C-842.968 1505.07 -2469.79 1746.52 -842.968 1122.25Z" fill="#222121"/>
+</g>
+<defs>
+<clipPath id="clip0_13_2">
+<rect width="3590" height="1437" fill="white" transform="translate(0 0.000244141)"/>
+</clipPath>
+</defs>
 </svg>
