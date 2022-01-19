@@ -5,7 +5,7 @@ const MobileApps = () => {
     return (
         <div className="MobileApps_Page">
             <div className="MobileApps_Page_main">
-                <h2>MobileApps</h2>
+                <h2>Mobile Apps</h2>
             </div>
         </div>
     )
