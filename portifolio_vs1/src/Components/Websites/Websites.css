@@ -1,28 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,900&display=swap');
 
 .Websites_Page {
-    height: 100vh;
-    width: 100vw;
-    font-family: 'Roboto', sans-serif;
-    background-image: url(../../Assets/WebsiteCurve.svg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 150vh;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../../Assets/WebsiteCurve.svg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .Websites_Page_main {
-    width: 1500px;
-    height: 100vh;
-    position: relative;
+  width: 1500px;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .Websites_Page h2 {
-    position: absolute;
-    top: 1em;
-    left: 2em;
-    font-size: 400%;
-    text-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  position: absolute;
+  top: 1em;
+  left: 2em;
+  font-size: 400%;
+  text-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  z-index: 1;
+}
+
+.Websites {
+  display: flex;
+  position: absolute;
+  top: 15em;
+  flex-direction: row;
+  width: 55em;
+  height: 35em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.Website_card {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Website_card > img {
+  height: 10em;
+  border-radius: 8px;
+  width: 16em;
+}
+
+.Website_card > p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.Website_card:hover {
+    animation: shake 0.50s ease infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(+2deg);
+    }
+
+    100% {
+        transform: rotate(-2deg);
+    }
 }
