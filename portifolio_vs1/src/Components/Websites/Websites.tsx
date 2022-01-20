@@ -18,39 +18,39 @@ const Websites = () => {
                 <div className="Websites">
                     <div className="Website_card">
                         <img src={AnimatedLogin} alt="" />
-                        <p>Login Page</p>
+                        <p>Página de Login</p>
                     </div>
                     <div className="Website_card">
                         <img src={DrinkWater} alt="" />
-                        <p>Login Page</p>
+                        <p>Beba Água</p>
                     </div>
                     <div className="Website_card">
                         <img src={GamesPage} alt="" />
-                        <p>Login Page</p>
+                        <p>Xbox ou PlayStation</p>
                     </div>
                     <div className="Website_card">
                         <img src={Hotel} alt="" />
-                        <p>Login Page</p>
+                        <p>Hotel Paraíso</p>
                     </div>
                     <div className="Website_card">
                         <img src={PasswordGenerator} alt="" />
-                        <p>Login Page</p>
+                        <p>Gerador de Senhas</p>
                     </div>
                     <div className="Website_card">
                         <img src={onlineNote} alt="" />
-                        <p>Login Page</p>
+                        <p>Notas Online</p>
                     </div>
                     <div className="Website_card">
                         <img src={ReactFood} alt="" />
-                        <p>Login Page</p>
+                        <p>AllFoods</p>
                     </div>
                     <div className="Website_card">
                         <img src={SuperFilms} alt="" />
-                        <p>Login Page</p>
+                        <p>Superfilmes HD</p>
                     </div>
                     <div className="Website_card">
                         <img src={TicTacToe} alt="" />
-                        <p>Login Page</p>
+                        <p>Jogo da Velha</p>
                     </div>
                 </div>
             </div>
