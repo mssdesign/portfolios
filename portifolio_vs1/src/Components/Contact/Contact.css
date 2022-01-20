@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,900&display=swap');
+
+.contact {
+  background-color: #222121;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  height: 100%;
+  width: 110%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

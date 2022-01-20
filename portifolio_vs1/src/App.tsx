@@ -4,6 +4,7 @@ import Profile from './Components/Profile/Profile'
 import UIDesign from './Components/UIDesign/UIDesign'
 import Websites from './Components/Websites/Websites'
 import MobileApps from './Components/MobileApps/MobileApps'
+import Contact from './Components/Contact/Contact'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <UIDesign />
       <Websites />
       <MobileApps />
+      <Contact />
     </div>
   )
 }

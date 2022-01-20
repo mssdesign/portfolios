@@ -8,13 +8,13 @@ const Header = () => {
         Página Inicial
       </a>
       <a href="/" className="navbar__menu--links">
-        Perfil
+        UX/UI Designs
       </a>
       <a href="/" className="navbar__menu--links">
-        Projetos
+        Webpages
       </a>
       <a href="/" className="navbar__menu--links" id="button">
-        Contato
+        Mobile Apps
       </a>
     </div>
   )
