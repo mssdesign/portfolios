@@ -1,21 +1,24 @@
 import React from 'react'
 import './Header.css'
+import { BrowserRouter, Switch, Router, Link, Route } from 'react-router-dom'
 
 const Header = () => {
   return (
     <div className="navbar__menu">
-      <a href="/" className="navbar__menu--links">
-        Página Inicial
-      </a>
-      <a href="/" className="navbar__menu--links">
-        UX/UI Designs
-      </a>
-      <a href="/" className="navbar__menu--links active">
-        Webpages
-      </a>
-      <a href="/" className="navbar__menu--links" id="button">
-        Mobile Apps
-      </a>
+      <BrowserRouter>
+        <Link to="/" className="navbar__menu--links active">
+          Página Inicial
+        </Link>
+        <Link to="/" className="navbar__menu--links">
+          UX/UI Designs
+        </Link>
+        <Link to="/" className="navbar__menu--links">
+          Webpages
+        </Link>
+        <Link to="/" className="navbar__menu--links" id="button">
+          Mobile Apps
+        </Link>
+      </BrowserRouter>
     </div>
   )
 }
