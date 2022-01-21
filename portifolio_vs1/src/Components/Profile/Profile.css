@@ -26,13 +26,23 @@
 .legend {
     font-size: 1.4em;
     color: #fff;
-    width: 150px;
+    width: 200px;
     right: 6em;
     top: 30%;
 }
 
 .legend-name {
     font-size: 2em;
+}
+
+.technologies {
+    margin-top: 15px;
+}
+
+.programmingLang {
+    height: 30px;
+    margin-left: 10px;
+    z-index: 80;
 }
 
 .callToAction {
