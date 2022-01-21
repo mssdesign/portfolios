@@ -20,7 +20,10 @@
 
 .socialNetworks .icon {
   display: flex;
-  height: 45px;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 100px;
   margin-right: 45px;
   cursor: pointer;
   text-decoration: none;
@@ -29,4 +32,5 @@
 
 .socialNetworks .icon > svg {
   margin-right: 5px;
+  height: 25px;
 }
