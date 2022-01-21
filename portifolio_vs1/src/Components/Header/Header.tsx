@@ -1,24 +1,22 @@
 import React from 'react'
 import './Header.css'
-import { BrowserRouter, Switch, Router, Link, Route } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Header = () => {
   return (
     <div className="navbar__menu">
-      <BrowserRouter>
-        <Link to="/" className="navbar__menu--links active">
+        <Link activeClass='active' spy={true} smooth={true} to="home" className="navbar__menu--links">
           Página Inicial
         </Link>
-        <Link to="/" className="navbar__menu--links">
+        <Link spy={true} smooth={true} to="uiDesign" className="navbar__menu--links">
           UX/UI Designs
         </Link>
-        <Link to="/" className="navbar__menu--links">
+        <Link spy={true} smooth={true} to="webPages" className="navbar__menu--links">
           Webpages
         </Link>
-        <Link to="/" className="navbar__menu--links" id="button">
+        <Link spy={true} smooth={true} to="mobileApps" className="navbar__menu--links" id="button">
           Mobile Apps
         </Link>
-      </BrowserRouter>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Rentiki from '../../Assets/Mockups/Rentiki/Mock2.png'
 
 const MobileApps = () => {
   return (
-    <div className="MobileApps_Page">
+    <div className="MobileApps_Page" id='mobileApps'>
       <div className="MobileApps_Page_main">
         <h2>Mobile Apps</h2>
         <div className="Mockups">

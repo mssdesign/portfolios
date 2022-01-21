@@ -26,6 +26,7 @@
   text-decoration: none;
   padding: 0 1rem;
   padding: 2.5px 7.5px 5px 7.5px;
+  cursor: pointer;
 }
 
 .navbar__menu--links:after {

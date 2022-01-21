@@ -5,7 +5,7 @@ import './Profile.css'
 
 const Profile = () => {
   return (
-    <div className="background_Home">
+    <div className="background_Home" id="home">
       <div className="profile_Picture">
         <img className="avatar" src={Avatar} />
         <div className="legend">

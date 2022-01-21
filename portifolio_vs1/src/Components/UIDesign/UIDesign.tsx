@@ -6,7 +6,7 @@ import PersonaFit from '../../Assets/PersonaFit.png'
 
 const UIDesign = () => {
   return (
-    <div className="UIDesign_Page">
+    <div className="UIDesign_Page" id="uiDesign">
       <div className="UIDesign_Page_main">
         <h2>UX/UI Designs</h2>
         <div className="Mockups">

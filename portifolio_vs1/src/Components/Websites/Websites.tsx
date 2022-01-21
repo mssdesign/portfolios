@@ -12,7 +12,7 @@ import TicTacToe from '../../Assets/WebSitesPreview/TicTacToe.png'
 
 const Websites = () => {
     return (
-        <div className="Websites_Page">
+        <div className="Websites_Page" id="webPages">
             <div className="Websites_Page_main">
                 <h2>Webpages</h2>
                 <div className="Websites">
