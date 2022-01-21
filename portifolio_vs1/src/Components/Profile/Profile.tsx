@@ -1,6 +1,7 @@
 import React from 'react'
 import Down from '../../Assets/down.svg'
 import Avatar from '../../Assets/profileMe.png'
+import { Link } from 'react-scroll'
 import './Profile.css'
 
 const Profile = () => {
@@ -14,7 +15,7 @@ const Profile = () => {
         </div>
       </div>
       <div className="callToAction">
-        <p>Ver projetos</p>
+        <Link to='uiDesign' spy={true} smooth={true}><p>Ver projetos</p></Link>
         <img src={Down} />
       </div>
     </div>
