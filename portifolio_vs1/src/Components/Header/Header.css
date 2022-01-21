@@ -21,10 +21,28 @@
   font-size: 15px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
+  position: relative;
   justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
   padding: 2.5px 7.5px 5px 7.5px;
+}
+
+.navbar__menu--links:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 2px;
+  content: '';
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.navbar__menu--links:hover:after {
+  width: 75%;
+  left: 12%;
 }
 
 .navbar__menu--links.active {
