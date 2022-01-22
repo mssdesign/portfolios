@@ -8,7 +8,7 @@ const UIDesign = () => {
   return (
     <div className="UIDesign_Page" id="uiDesign">
       <div className="UIDesign_Page_main">
-        <h2>UX/UI Designs</h2>
+        <h2>UI Designs</h2>
         <div className="Mockups">
           <div className="Mockup_container">
             <h4>Vzerolog</h4>
