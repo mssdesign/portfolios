@@ -25,3 +25,8 @@
     left: 1em;
     font-size: 400%;
 }
+
+.Mockups > a {
+    color: #000;
+    text-decoration: none;
+}

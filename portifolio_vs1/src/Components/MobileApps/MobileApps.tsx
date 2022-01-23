@@ -9,14 +9,10 @@ const MobileApps = () => {
       <div className="MobileApps_Page_main">
         <h2>Mobile Apps</h2>
         <div className="Mockups">
-          <div className="Mockup_container">
-            <h4>Airbnb2</h4>
-            <img src={Airbnb2} alt="" className="mockup" />
-          </div>
-          <div className="Mockup_container">
+          <a href='https://github.com/mssdesign/rentiKi' target='_blank' className="Mockup_container">
             <h4>Rentiki</h4>
             <img src={Rentiki} alt="" className="mockup" />
-          </div>
+          </a>
         </div>
       </div>
     </div>
