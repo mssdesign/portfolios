@@ -52,6 +52,26 @@
     margin-top: 1em;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 1s ease;
+    position: relative;
+}
+
+.actionCard {
+  position: absolute;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.24);
+  height: 78%;
+  width: 92%;
+  border-radius: 8px;
+  opacity: 0;
+  transition: 0.25s ease;
+}
+
+.actionCard > div {
+  margin-right: 15px;
 }
 
 .Website_card > img {
@@ -66,19 +86,13 @@
 }
 
 .Website_card:hover {
-    animation: shake 1s ease infinite;
+  transform: scale(1.1);
 }
 
-@keyframes shake {
-    0% {
-        transform: rotate(-2deg);
-    }
+.Website_card .actionCard:hover {
+  opacity: 1;
+}
 
-    50% {
-        transform: rotate(+2deg);
-    }
-
-    100% {
-        transform: rotate(-2deg);
-    }
+.gitHub > svg {
+  height: 60px;
 }
