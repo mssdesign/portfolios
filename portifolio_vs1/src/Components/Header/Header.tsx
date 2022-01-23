@@ -9,7 +9,7 @@ const Header = () => {
           Página Inicial
         </Link>
         <Link spy={true} smooth={true} to="uiDesign" className="navbar__menu--links">
-          UX/UI Designs
+          UI Designs
         </Link>
         <Link spy={true} smooth={true} to="webPages" className="navbar__menu--links">
           Webpages
