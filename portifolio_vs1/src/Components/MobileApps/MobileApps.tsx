@@ -1,6 +1,5 @@
 import React from 'react'
 import './MobileApps.css'
-import Airbnb2 from '../../Assets/Mockups/Airbnb2/Mock1.png'
 import Rentiki from '../../Assets/Mockups/Rentiki/Mock2.png'
 
 const MobileApps = () => {
