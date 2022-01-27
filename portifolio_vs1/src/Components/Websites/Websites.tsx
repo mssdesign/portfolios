@@ -75,7 +75,7 @@ const Websites = () => {
           </div>
           <div className="Website_card">
             <img src={Hotel} alt="" />
-            <p>Hotel Paraíso</p>
+            <p>Slides na Vertical</p>
             <div className="actionCard">
               <div className="gitHub">
                 <svg viewBox="0 0 128 128">
@@ -132,7 +132,7 @@ const Websites = () => {
           </div>
           <div className="Website_card">
             <img src={ReactFood} alt="" />
-            <p>AllFoods</p>
+            <p>Mídias Sociais</p>
             <div className="actionCard">
               <div className="gitHub">
                 <svg viewBox="0 0 128 128">
@@ -151,7 +151,7 @@ const Websites = () => {
           </div>
           <div className="Website_card">
             <img src={SuperFilms} alt="" />
-            <p>Superfilmes HD</p>
+            <p>MssFilmes HD</p>
             <div className="actionCard">
               <div className="gitHub">
                 <svg viewBox="0 0 128 128">
