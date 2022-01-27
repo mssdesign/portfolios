@@ -14,7 +14,7 @@ const Websites = () => {
   return (
     <div className="Websites_Page" id="webPages">
       <div className="Websites_Page_main">
-        <h2>Webpages</h2>
+        <h2>Projetos Web</h2>
         <div className="Websites">
           <div className="Website_card">
             <img src={AnimatedLogin} alt="" />

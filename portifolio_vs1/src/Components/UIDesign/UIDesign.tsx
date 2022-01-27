@@ -8,7 +8,7 @@ const UIDesign = () => {
   return (
     <div className="UIDesign_Page" id="uiDesign">
       <div className="UIDesign_Page_main">
-        <h2>UI Designs</h2>
+        <h2>Interfaces</h2>
         <div className="Mockups">
           <a
             href="https://dribbble.com/shots/17346318-PersonaFit"
