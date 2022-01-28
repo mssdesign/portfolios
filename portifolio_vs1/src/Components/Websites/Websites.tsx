@@ -16,7 +16,7 @@ const Websites = () => {
       <div className="Websites_Page_main">
         <h2>Projetos Web</h2>
         <div className="Websites">
-          <div className="Website_card">
+          <a href='https://github.com/mssdesign/portifolios/tree/main/Projects/login_page' target='_blank' className="Website_card">
             <img src={AnimatedLogin} alt="" />
             <p>Página de Login</p>
             <div className="actionCard">
@@ -34,8 +34,8 @@ const Websites = () => {
                 <p>Ver repositório</p>
               </div>
             </div>
-          </div>
-          <div className="Website_card">
+          </a>
+          <a href='https://github.com/mssdesign/portifolios/tree/main/Projects/beba_agua' target='_blank' className="Website_card">
             <img src={DrinkWater} alt="" />
             <p>Beba Água</p>
             <div className="actionCard">
@@ -53,8 +53,8 @@ const Websites = () => {
                 <p>Ver repositório</p>
               </div>
             </div>
-          </div>
-          <div className="Website_card">
+          </a>
+          <a href='https://github.com/mssdesign/portifolios/tree/main/Projects/pagina_dividida' target='_blank' className="Website_card">
             <img src={GamesPage} alt="" />
             <p>Xbox ou PlayStation</p>
             <div className="actionCard">
@@ -72,8 +72,8 @@ const Websites = () => {
                 <p>Ver repositório</p>
               </div>
             </div>
-          </div>
-          <div className="Website_card">
+          </a>
+          <a href='https://github.com/mssdesign/portifolios/tree/main/Projects/vertical_slider' target='_blank' className="Website_card">
             <img src={Hotel} alt="" />
             <p>Slides na Vertical</p>
             <div className="actionCard">
@@ -91,8 +91,8 @@ const Websites = () => {
                 <p>Ver repositório</p>
               </div>
             </div>
-          </div>
-          <div className="Website_card">
+          </a>
+          <a href='https://github.com/mssdesign/portifolios/tree/main/Projects/gerador_senhas' target='_blank' className="Website_card">
             <img src={PasswordGenerator} alt="" />
             <p>Gerador de Senhas</p>
             <div className="actionCard">
@@ -110,8 +110,8 @@ const Websites = () => {
                 <p>Ver repositório</p>
               </div>
             </div>
-          </div>
-          <div className="Website_card">
+          </a>
+          <a href='https://github.com/mssdesign/portifolios/tree/main/Projects/notas_online' target='_blank' className="Website_card">
             <img src={onlineNote} alt="" />
             <p>Notas Online</p>
             <div className="actionCard">
@@ -129,8 +129,8 @@ const Websites = () => {
                 <p>Ver repositório</p>
               </div>
             </div>
-          </div>
-          <div className="Website_card">
+          </a>
+          <a href='https://github.com/mssdesign/portifolios/tree/main/Projects/contador_animado' target='_blank' className="Website_card">
             <img src={ReactFood} alt="" />
             <p>Mídias Sociais</p>
             <div className="actionCard">
@@ -148,8 +148,8 @@ const Websites = () => {
                 <p>Ver repositório</p>
               </div>
             </div>
-          </div>
-          <div className="Website_card">
+          </a>
+          <a href='https://github.com/mssdesign/portifolios/tree/main/Projects/filmes' target='_blank' className="Website_card">
             <img src={SuperFilms} alt="" />
             <p>MssFilmes HD</p>
             <div className="actionCard">
@@ -167,8 +167,8 @@ const Websites = () => {
                 <p>Ver repositório</p>
               </div>
             </div>
-          </div>
-          <div className="Website_card">
+          </a>
+          <a href='https://github.com/mssdesign/portifolios/tree/main/Projects/jogo_da_velha' target='_blank' className="Website_card">
             <img src={TicTacToe} alt="" />
             <p>Jogo da Velha</p>
             <div className="actionCard">
@@ -186,7 +186,7 @@ const Websites = () => {
                 <p>Ver repositório</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

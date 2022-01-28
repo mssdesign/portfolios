@@ -48,6 +48,8 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    color: #000;
     text-align: center;
     margin-top: 1em;
     border-radius: 10px;
