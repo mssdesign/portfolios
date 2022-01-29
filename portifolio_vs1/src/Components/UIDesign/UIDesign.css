@@ -15,14 +15,14 @@
 }
 
 .UIDesign_Page_main {
-  width: 1500px;
+  width: 100%;
   height: 100vh;
   position: relative;
 }
 
 .UIDesign_Page h2 {
   position: absolute;
-  left: 2em;
+  left: 1em;
   font-size: 400%;
 }
 
@@ -57,17 +57,23 @@
   .UIDesign_Page {
     height: 200vh;
     overflow: visible;
+    max-width: 100%;
   }
   .UIDesign_Page_main {
-    transform: translate(20px, -450px);
-    width: 100vw;
+    transform: translate(5%, -400px);
+    width: 450px;
+    max-width: 90%;
+  }
+  .Mockup_container {
+    max-width: 100%;
   }
   .UIDesign_Page h2 {
     font-size: 300%;
-    left: 1em;
+    left: 0;
   }
   .Mockups {
     flex-direction: column;
+    max-width: 90%;
   }
 }
 
@@ -77,12 +83,12 @@
     overflow: visible;
   }
   .UIDesign_Page_main {
-    transform: translateY(-550px);
+    transform: translate(8%, -550px);
     width: 100vw;
+    max-width: 60%;
   }
   .UIDesign_Page h2 {
     font-size: 300%;
-    left: 1em;
   }
   .Mockups {
     flex-direction: column;

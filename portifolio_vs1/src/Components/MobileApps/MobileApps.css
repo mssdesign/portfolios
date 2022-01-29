@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,900&display=swap');
 
 .MobileApps_Page {
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -14,8 +14,20 @@
     overflow: hidden;
 }
 
+.Mockup_container_app {
+    position: relative;
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+    bottom: -150px;
+    height: 500px;
+    width: 400px;  
+  }
+
 .MobileApps_Page_main {
-    width: 1500px;
+    width: 100%;
+    transform: translateY(-100px);
     height: 100vh;
     position: relative;
 }
@@ -34,5 +46,14 @@
 @media screen and (max-width: 600px) {
     .MobileApps_Page h2 {
         font-size: 300%;
+    }
+    .Mockup_container_app {
+        transform: translateX(25%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Mockup_container_app {
+        transform: translateX(0);
     }
 }

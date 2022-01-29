@@ -8,7 +8,7 @@ const MobileApps = () => {
       <div className="MobileApps_Page_main">
         <h2>Aplicativos</h2>
         <div className="Mockups">
-          <a href='https://github.com/mssdesign/rentiKi' target='_blank' className="Mockup_container">
+          <a href='https://github.com/mssdesign/rentiKi' target='_blank' className="Mockup_container_app">
             <h4>Rentiki</h4>
             <img src={Rentiki} alt="" className="mockup" />
           </a>

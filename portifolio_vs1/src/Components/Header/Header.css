@@ -46,14 +46,6 @@
   left: 12%;
 }
 
-.navbar__menu--links.active {
-  color: #222121;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
-  background-color: #fff;
-  padding: 2.5px 7.5px 5px 7.5px;
-}
-
 @media screen and (max-width: 600px) { 
   .navbar__menu {
     display: none;
