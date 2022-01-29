@@ -53,3 +53,9 @@
   background-color: #fff;
   padding: 2.5px 7.5px 5px 7.5px;
 }
+
+@media screen and (max-width: 600px) { 
+  .navbar__menu {
+    display: none;
+  }
+}

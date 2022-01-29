@@ -81,3 +81,35 @@
         transform: translateY(10px);
     }
 }
+
+@media screen and (max-width: 600px) {
+    .background_Home {
+        width: 110%;
+        height: 110vh;
+    }
+    .profile_Picture {
+        flex-direction: column;
+        text-align: center;
+    }
+    .avatar {
+        height: 170px;
+        margin-bottom: 10vh;
+        transform: translateX(50px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .background_Home {
+        width: 130%;
+        height: 120vh;
+    }
+    .profile_Picture {
+        flex-direction: column;
+        text-align: center;
+    }
+    .avatar {
+        height: 170px;
+        margin-bottom: 10vh;
+        transform: translateX(50px);
+    }
+}
