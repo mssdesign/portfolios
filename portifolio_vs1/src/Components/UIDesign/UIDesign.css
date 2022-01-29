@@ -64,7 +64,6 @@
     height: 240vh;
     overflow: visible;
     max-width: 100%;
-    border: 1px solid red;
   }
   .UIDesign_Page_main {
     transform: translate(25%, -400px);
