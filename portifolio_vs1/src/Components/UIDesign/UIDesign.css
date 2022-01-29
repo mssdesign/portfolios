@@ -59,11 +59,11 @@
     overflow: visible;
   }
   .UIDesign_Page_main {
-    transform: translate(10px, -450px);
+    transform: translate(20px, -450px);
     width: 100vw;
   }
   .UIDesign_Page h2 {
-    font-size: 350%;
+    font-size: 300%;
     left: 1em;
   }
   .Mockups {
@@ -81,7 +81,7 @@
     width: 100vw;
   }
   .UIDesign_Page h2 {
-    font-size: 350%;
+    font-size: 300%;
     left: 1em;
   }
   .Mockups {

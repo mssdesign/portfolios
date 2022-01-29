@@ -108,7 +108,8 @@
     flex-wrap: nowrap;
   }
   .Websites_Page h2 {
-    font-size: 350%;
+    font-size: 300%;
+    left: 1.2em;
   }
   .Website_card {
     align-items: center;
@@ -131,7 +132,8 @@
     flex-wrap: nowrap;
   }
   .Websites_Page h2 {
-    font-size: 350%;
+    font-size: 300%;
+    left: 1.2em;
   }
   .Website_card {
     align-items: center;
