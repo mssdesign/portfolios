@@ -98,3 +98,49 @@
 .gitHub > svg {
   height: 60px;
 }
+
+@media screen and (max-width: 600px) {
+  .Websites_Page {
+    height: 250vh;
+  }
+  .Websites {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .Websites_Page h2 {
+    font-size: 350%;
+  }
+  .Website_card {
+    align-items: center;
+  }
+  .Website_card:hover {
+    transform: scale(1);
+  }
+  
+  .Website_card .actionCard:hover {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Websites_Page {
+    height: 320vh;
+  }
+  .Websites {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .Websites_Page h2 {
+    font-size: 350%;
+  }
+  .Website_card {
+    align-items: center;
+  }
+  .Website_card:hover {
+    transform: scale(1);
+  }
+  
+  .Website_card .actionCard:hover {
+    opacity: 0;
+  }
+}

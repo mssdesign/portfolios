@@ -34,3 +34,22 @@
   margin-right: 5px;
   height: 25px;
 }
+
+@media screen and (max-width: 600px) {
+  .contact {
+    height: 400px;
+  }
+
+  .socialNetworks {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .socialNetworks .icon {
+    margin-bottom: 25px;
+  }
+
+  .email {
+    font-size: small;
+  }
+}
