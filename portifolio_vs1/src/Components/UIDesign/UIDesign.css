@@ -52,3 +52,37 @@
 .mockup:hover {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 600px) {
+  .UIDesign_Page {
+    height: 200vh;
+    overflow: visible;
+  }
+  .UIDesign_Page_main {
+    transform: translate(10px, -450px);
+    width: 100vw;
+  }
+  .UIDesign_Page h2 {
+    left: 1em;
+  }
+  .Mockups {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .UIDesign_Page {
+    height: 250vh;
+    overflow: visible;
+  }
+  .UIDesign_Page_main {
+    transform: translateY(-550px);
+    width: 100vw;
+  }
+  .UIDesign_Page h2 {
+    left: 1em;
+  }
+  .Mockups {
+    flex-direction: column;
+  }
+}
