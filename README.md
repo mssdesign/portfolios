@@ -1,2 +1,2 @@
-# portifolios
-Meus portifolios.
+# portfolios
+Meus portfolios.
