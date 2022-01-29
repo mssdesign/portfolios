@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/portfolio">
+        <Route path="/">
           <div className="background">
             <Header />
             <Profile />
@@ -20,9 +20,6 @@ function App() {
             <MobileApps />
             <Contact />
           </div>
-        </Route>
-        <Route exact path="/">
-          <Redirect to="/portfolio" />
         </Route>
       </Switch>
     </BrowserRouter>
