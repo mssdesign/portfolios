@@ -53,27 +53,34 @@
   transform: scale(1.2);
 }
 
+@media screen and (max-width: 790px) {
+  .Mockup_container {
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .UIDesign_Page {
-    height: 200vh;
+    height: 240vh;
     overflow: visible;
     max-width: 100%;
+    border: 1px solid red;
   }
   .UIDesign_Page_main {
-    transform: translate(5%, -400px);
-    width: 450px;
-    max-width: 90%;
+    transform: translate(25%, -400px);
+    justify-content: center;
+    max-width: 50%;
   }
   .Mockup_container {
     max-width: 100%;
   }
   .UIDesign_Page h2 {
     font-size: 300%;
-    left: 0;
+    transform: translateX(-75%);
   }
   .Mockups {
     flex-direction: column;
-    max-width: 90%;
+    max-width: 50%;
   }
 }
 
@@ -83,12 +90,13 @@
     overflow: visible;
   }
   .UIDesign_Page_main {
-    transform: translate(8%, -550px);
+    transform: translate(35%, -550px);
     width: 100vw;
-    max-width: 60%;
+    max-width: 50%;
   }
   .UIDesign_Page h2 {
     font-size: 300%;
+    transform: translateX(-75%);
   }
   .Mockups {
     flex-direction: column;
